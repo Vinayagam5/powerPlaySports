@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerPlay Sports | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">POWERPLAY <span>SPORTS</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+    </nav>
+
+    <section class="contact-container">
+        <h2>GET IN <span>TOUCH</span></h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Have questions about our gear or need help with an order? Reach out to our team.</p>
+                <ul>
+                    <li>📍 123 Athletic Ave, Sports City, SC 90210</li>
+                    <li>📞 +1 (555) 123-4567</li>
+                    <li>✉️ support@powerplaysports.com</li>
+                </ul>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="toast" class="toast hidden">Message sent successfully!</div>
+
+    <footer>
+        <p>&copy; 2026 PowerPlay Sports. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
